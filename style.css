@@ -1,0 +1,29 @@
+:root {
+    --grid-rows: 1;
+}
+body {
+    background-image: url(https://i.ya-webdesign.com/images/website-backgrounds-png.png);
+}
+.title {
+    text-align: center;
+}
+.main {
+    border: 1px solid black;
+    margin: 70px auto;
+    width: 640px;
+    height: 640px;
+    display: grid;
+    grid-template-rows: repeat(var(--grid-rows), 1fr);
+    grid-template-columns: repeat(var(--grid-rows), 1fr);
+    background-color: white;
+}
+.grid {
+    border: 1px solid grey;
+}
+
+.onmouseover {
+    background-color: black;
+}
+.clear {
+    background-color: white;
+}
